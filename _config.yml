@@ -3,10 +3,10 @@
 # ----------------------- #
 
 url: http://isuct.github.io
-title: My Octopress Blog
+title: Факультет органической химии и технологии
 subtitle: A blogging framework for hackers.
-author: Your Name
-simple_search: https://www.google.com/search
+author: ИГХТУ
+simple_search: # https://www.google.com/search
 description:
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
@@ -16,7 +16,7 @@ description:
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /atom.xml
+subscribe_rss: # /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
 email:

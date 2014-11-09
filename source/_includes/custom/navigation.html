@@ -6,25 +6,33 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ root_url }}/">{{ site.title }}</a>
+            <a class="navbar-brand" href="{{ root_url }}/"></a>
         </div>
 
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li {% if page.navbar == 'Blog' %}class="active"{% endif %}>
-                    <a rel="index" href="{{ root_url }}/">Blog</a>
+                    <a rel="index" href="{{ root_url }}/">Главная</a>
                 </li>
-                <li {% if page.navbar == 'Archives' %}class="active"{% endif %}>
-                    <a href="{{ root_url }}/blog/archives">Archives</a>
+                <li {% if page.navbar == 'About' %}class="active"{% endif %}>
+                    <a href="{{ root_url }}/blog/archives">О факультете</a>
+                </li>
+                <li {% if page.navbar == 'Abiturients' %}class="active"{% endif %}>
+                    <a href="{{ root_url }}/blog/archives">Поступающим</a>
+                </li>
+                <li {% if page.navbar == 'Sudents' %}class="active"{% endif %}>
+                    <a href="{{ root_url }}/blog/archives">Студентам</a>
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
+                {% if site.subscribe_rss %}
                 <li>
                     <a class="subscribe-rss" href="{{ site.subscribe_rss }}" title="subscribe via RSS">
                         <span class="visible-xs">RSS</span>
                         <img class="hidden-xs" src="{{ root_url }}/images/rss.png" alt="RSS">
                     </a>
                 </li>
+                {% endif %}
                 {% if site.subscribe_email %}
                 <li>
                     <a class="subscribe-email" href="{{ site.subscribe_email }}" title="subscribe via email">

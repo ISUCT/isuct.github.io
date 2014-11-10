@@ -1,0 +1,10 @@
+_site/
+_deploy/
+public/
+.editorconfig
+.git
+.powrc
+.pygments-cache
+.sass-cache
+.slugignore
+.themes

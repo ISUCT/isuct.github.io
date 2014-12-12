@@ -1,0 +1,704 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"i",
+				"iconv"
+			],
+			[
+				"js",
+				"json_decode"
+			],
+			[
+				"u",
+				"user_id"
+			],
+			[
+				"url",
+				"url_data_send"
+			],
+			[
+				"pos",
+				"post_data"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"post",
+				"post_file"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"url_",
+				"url_data_send"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"_",
+				"_FILES"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"arr",
+				"array	$… = array (…)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "source/_includes/header.html",
+			"settings":
+			{
+				"buffer_size": 33,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/_layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 843,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/_layouts/page.html",
+			"settings":
+			{
+				"buffer_size": 2163,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/_layouts/post.html",
+			"settings":
+			{
+				"buffer_size": 2124,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/about/index.markdown",
+			"settings":
+			{
+				"buffer_size": 920,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/jskonst/workspace/isuct.github.io/source/_includes/_before_header.html",
+		"/home/jskonst/workspace/isuct.github.io/source/index.html",
+		"/home/jskonst/workspace/isuct.github.io/source/_includes/twitter_sharing.html",
+		"/home/jskonst/workspace/isuct.github.io/source/_includes/navigation.html",
+		"/home/jskonst/workspace/isuct.github.io/source/_includes/head.html",
+		"/home/jskonst/workspace/isuct.github.io/source/_includes/custom/head.html",
+		"/home/jskonst/workspace/isuct.github.io/source/_includes/custom/header.html",
+		"/home/jskonst/workspace/isuct.github.io/source/_includes/post/categories.html",
+		"/home/jskonst/workspace/isuct.github.io/source/about/index.markdown",
+		"/home/jskonst/workspace/isuct.github.io/source/_layouts/default.html",
+		"/home/jskonst/workspace/isuct.github.io/source/_includes/custom/navigation.html",
+		"/home/jskonst/workspace/isuct.github.io/source/_layouts/post.html",
+		"/home/jskonst/workspace/isuct.github.io/source/_includes/custom/footer.html",
+		"/home/jskonst/workspace/isuct.github.io/source/_includes/custom/category_feed.xml",
+		"/home/jskonst/workspace/isuct.github.io/source/images/logo.jpg",
+		"/home/jskonst/Desktop/список",
+		"/home/jskonst/Documents/java_install",
+		"/var/www/examples/4/index.php",
+		"/var/www/examples/6/index.php",
+		"/var/www/examples/7/index.php",
+		"/var/www/examples/8/wiki/index.php",
+		"/var/www/examples/8/apist/index.php",
+		"/home/jskonst/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/var/www/index.php",
+		"/Users/dima/www-data/some/link/index.php",
+		"/Users/dima/www-data/simpla/simpla/index.php",
+		"/Users/dima/www-data/simpla/api/Request.php",
+		"/Users/dima/www-data/simpla/simpla/.htaccess",
+		"/Users/dima/www-data/simpla/simpla/.passwd",
+		"/Users/dima/www-data/sqsite/in.socialquantum.ru/index.php",
+		"/Users/dima/www-data/forum_sq_ru/sxd/backup/forum_ru_2014-10-30_03-58-09.sql",
+		"/Users/dima/dead.letter",
+		"/Applications/MAMP/htdocs/index.php",
+		"/Users/dima/www-data/sqreboot/index.html",
+		"/Users/dima/www-data/sqreboot/assets/js/panel.js",
+		"/Users/dima/Library/Caches/Cleanup At Startup/Transmit/A0F136DA-2D03-4B5E-97B7-8BEC0470BDAA/config.php",
+		"/Users/dima/Library/Caches/Cleanup At Startup/Transmit/0790ECAE-FBB5-4236-9D79-38B846807D93/config.php",
+		"/Users/dima/Library/Caches/Cleanup At Startup/Transmit/2E7404CD-3C0E-402F-A3AB-23E56A9B8E13/config.php",
+		"/Users/dima/Desktop/(GMT -12:00) Enevetok, Kwajalein",
+		"/Users/dima/Library/Caches/Cleanup At Startup/Transmit/19DE2459-BF4E-4938-8653-A63D2624F194/time.php",
+		"/Users/dima/www-data/autotest_admin/inc/task_manager.php",
+		"/Users/dima/www-data/autotest_admin/index.php",
+		"/Users/dima/www-data/some/index.php",
+		"/Users/dima/Downloads/bootes-2014-09-24-22-25-17.ocs",
+		"/Users/dima/Library/Caches/Cleanup At Startup/Transmit/77FC3994-E5F7-4625-A42A-691FB79B5E12/hd_trash_cleaner.sql",
+		"/Users/dima/Library/Caches/Cleanup At Startup/Transmit/492C0A1B-7DF0-4B7F-A48D-95D1CB417FAF/hd_trash_cleaner.sql",
+		"/Users/dima/www-data/hd_query.sh",
+		"/Users/dima/www-data/pick.sh",
+		"/Users/dima/www-data/pick_delete.sh",
+		"/Users/dima/Library/Caches/Cleanup At Startup/Transmit/7A09A99B-ABA4-43FD-B693-0AB39C77B18E/hd_trash_cleaner.sql",
+		"/Users/dima/Library/Caches/Cleanup At Startup/Transmit/31848A0E-8177-48B3-80D3-1A14AF2A2A88/hd_tickets_cleaner.sql",
+		"/Users/dima/Documents/Сайты/sq_helpdesk/hd_tickets_cleaner.sql",
+		"/Users/dima/Documents/Сайты/sq_helpdesk/hd_trash_cleaner.sql",
+		"/Users/dima/Documents/Сайты/sq_helpdesk/cleaner_helpdesk.sql",
+		"/Users/dima/Documents/Сайты/sq_helpdesk/trash_clean.sql",
+		"/Users/dima/cleaner_helpdesk.sql",
+		"/Users/dima/trash_clean.sql",
+		"/Users/dima/www-data/some/hdcommailsend/index.php",
+		"/Users/dima/helpdesk_zh_20141002.sql",
+		"/Users/dima/www-data/some/mysql/index.php",
+		"/Users/dima/.bash_profile",
+		"/Users/dima/Desktop/Bonjour, c'est gentil de votre part mais le problè",
+		"/Users/dima/Library/Caches/Cleanup At Startup/Transmit/D60663E2-2E74-4A41-9013-B136AABA1D4C/skype.php",
+		"/Users/dima/www-data/some/file/index.php",
+		"/Users/dima/www-data/some/file/skype.php",
+		"/Users/dima/Library/Caches/Cleanup At Startup/Transmit/B4C80788-400D-4E3A-B71C-3497FE5B66F9/sendmessage.php",
+		"/Users/dima/Desktop/skype.php",
+		"/Users/dima/robots.txt",
+		"/Users/dima/Library/Caches/Cleanup At Startup/Transmit/5491554C-6F10-4FAF-992C-AA4511319501/config.php",
+		"/Users/dima/Library/Caches/Cleanup At Startup/Transmit/5F90575C-0C92-4352-AD3E-EDFF9EA0FA37/controller.php",
+		"/Users/dima/www-data/some/reboot/index.html",
+		"/Users/dima/Downloads/Vuze/Mamp Pro 3.0.5/Mamp Pro 3.rtf",
+		"/Applications/MAMP/bin/php/php5.3.28/lib/php/data/PEAR/template.spec",
+		"/Applications/MAMP/bin/php/php5.4.25/lib/php/System.php",
+		"/Applications/MAMP/bin/php/php5.4.25/conf/pear.conf",
+		"/Applications/MAMP/bin/php/php5.4.25/conf/php.ini",
+		"/Users/dima/.bash_profile_old",
+		"/Users/dima/.profile",
+		"/Users/dima/www-data/helpdesk_all/__swift/config/config.php",
+		"/Users/dima/www-data/helpdesk_all/__swift/includes/functions.settings.php",
+		"/Users/dima/Documents/Сайты/sq_helpdesk/zh-translate/ultimate/d_n.sh",
+		"/Users/dima/www-data/autotest_admin/nodejs/server.js",
+		"/Users/dima/www-data/autotest_admin/info.php",
+		"/Users/dima/www-data/autotest_admin/index.html",
+		"/Users/dima/Documents/Сайты/sq_helpdesk/zh-translate/ultimate/d.sh",
+		"/Users/dima/Documents/Сайты/sq_helpdesk/zh-translate/рецепт.txt",
+		"/Users/dima/Documents/Сайты/sq_helpdesk/zh-translate/ultimate/decode_base64.txt",
+		"/Users/dima/Documents/Сайты/sq_helpdesk/zh-translate/ultimate/coder.txt",
+		"/Users/dima/Documents/Сайты/sq_helpdesk/zh-translate/ultimate/base64.txt",
+		"/Users/dima/Documents/Сайты/sq_helpdesk/zh-translate/ultimate/pick.sh",
+		"/Users/dima/Documents/Сайты/sq_helpdesk/zh-translate/ultimate/coder.sh",
+		"/Users/dima/Documents/Сайты/sq_helpdesk/zh-translate/zh-base64-gb1803.zip",
+		"/Users/dima/Documents/Сайты/sq_helpdesk/zh-translate/zh-gb1803.txt",
+		"/Users/dima/Documents/Сайты/sq_helpdesk/zh-translate/result.txt",
+		"/Users/dima/Documents/Сайты/sq_helpdesk/zh-translate/zh-gb1803.zip",
+		"/Users/dima/www-data/dimasmirnov/framework/gii/generators/crud/templates/default/controller.php",
+		"/Users/dima/www-data/sq/protected/components/site/widgets/NewsWidget.php",
+		"/Users/dima/www-data/sq/framework/i18n/data/ne.php",
+		"/Users/dima/www-data/sq/assets/629a7426/less/navbar.less",
+		"/Users/dima/www-data/sq/protected/controllers/edit/SiteController.php",
+		"/Users/dima/www-data/sq/protected/components/edit/widgets/ContentMenuWidget.php",
+		"/Users/dima/www-data/sq/protected/components/site/BaseSiteController.php",
+		"/Users/dima/www-data/sq/protected/components/common/BaseSqController.php",
+		"/Users/dima/www-data/sq/themes/edit/views/vacancycontent/v_edit_vacancy_content_u.php",
+		"/Users/dima/www-data/sq/protected/components/edit/BaseEditController.php",
+		"/Users/dima/www-data/sq/protected/messages/ru/m_edit.php",
+		"/Users/dima/www-data/sq/.idea/misc.xml",
+		"/Users/dima/www-data/sq/protected/extensions/edit/bootstrap/behaviors/TbWidget.php",
+		"/Users/dima/www-data/sq/protected/extensions/edit/yiiwheels/widgets/grid/WhImageColumn.php",
+		"/Users/dima/www-data/sq/.idea/workspace.xml",
+		"/Users/dima/Library/Caches/Cleanup At Startup/Transmit/DCA34CE5-B66A-40DA-9E5D-94C0822E2F06/l_footer.php",
+		"/Users/dima/Library/Caches/Cleanup At Startup/Transmit/AC30D2A9-084B-4EC9-ACBC-04D8A5078794/l_header.php",
+		"/Users/dima/www-data/sq/protected/models/common/Game.php",
+		"/Users/dima/www-data/sq/themes/edit/views/news/v_edit_news_cud.php",
+		"/Users/dima/www-data/sq/protected/controllers/edit/NewsController.php",
+		"/Users/dima/www-data/sq/protected/models/common/News.php",
+		"/Users/dima/www-data/sq/protected/tests/bootstrap.php",
+		"/Users/dima/www-data/some/helpdesk_articles/delete.php",
+		"/Users/dima/www-data/some/hd_cleaner/index.php",
+		"/Users/dima/www-data/some/helpdesk_articles/a_hard_add.php",
+		"/Users/dima/Desktop/User.php",
+		"/Users/dima/www-data/some/helpdesk_articles/soft_article_copy.php",
+		"/Users/dima/User.html",
+		"/Users/dima/Desktop/test.txt",
+		"/Users/dima/www-data/some/sqapi/index.php",
+		"/Users/dima/www-data/sq/protected/components/common/SQUser.php",
+		"/Users/dima/www-data/sq/protected/config/common.php",
+		"/Users/dima/www-data/sq/themes/edit/views/layouts/l_edit.php"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"*.php",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"   <li {% if page.navbar == 'Cafedra' %}class=\"active\"{% endif %}>\n                    <a href=\"{{ root_url }}/blog/archives\">Кафедры</a>\n                </li>",
+			"vi",
+			"vim",
+			"$_GET",
+			"GET",
+			"Simpla CMS",
+			"WWW-Authenticate",
+			"Simpla CMS",
+			"POP3",
+			"		[parse] ",
+			"completed",
+			"	",
+			"cookie",
+			"+ ",
+			"</option>",
+			"	",
+			"0)",
+			")",
+			"GMT",
+			"<option value=\"",
+			"</option>",
+			"getFile",
+			"stopTask",
+			"update",
+			"System",
+			"update",
+			"Update",
+			"getFile",
+			"show_log",
+			"swbenchmark",
+			"errorlogs",
+			"<td>5</td>\n<td>6</td>",
+			"<td>1</td>",
+			"rowspan=\"1\"",
+			"ИМЯ_В_СКАЙП",
+			"skype",
+			"ID",
+			"HARDWARE",
+			"print_r",
+			"login",
+			"\"",
+			"3.6",
+			"redis",
+			"pear",
+			"php5.5.10",
+			"			",
+			"rray(\n				'a' => ",
+			"array(\n				'a' => ",
+			"93.158.134.3",
+			"-'",
+			".",
+			":",
+			"\n",
+			"	",
+			"updateWorkerTask",
+			"fetchWorkerStatus",
+			"priority",
+			"Priority",
+			"priority",
+			"Priority",
+			"priority",
+			"Priority",
+			"priority",
+			"Priority",
+			"priority",
+			"Priority",
+			"priority",
+			"Priority",
+			"priority",
+			"Priority",
+			"priority",
+			"Priority",
+			"priority",
+			"Priority",
+			"priority",
+			"Priority",
+			"priority",
+			"Priority",
+			"priority",
+			"Priority",
+			"priority",
+			"Priority",
+			"priority",
+			"Priority",
+			"priority",
+			"Priority",
+			"priority",
+			"base64",
+			"apply",
+			"actionDelete",
+			"fileupload",
+			"87.240.143.241",
+			"CTimestampBehavior",
+			"$resource",
+			"pic",
+			"array('Content-Type: multipart/form-data')",
+			"foo",
+			"edit_login_error_read",
+			"edit_stat_read",
+			"'content' ",
+			")",
+			"'content'",
+			"<span class=\"date\">",
+			"</div>",
+			"<div class=\"news\">",
+			"remotes/origin/helpdesk",
+			"LoginForm",
+			"button",
+			"\\r\\0\\n",
+			"gSrvSocketPORT",
+			"gSrvCurlPORT",
+			"sq",
+			"marketing",
+			"\n\n\n\n\n\n\n",
+			"\n\n\n\n\n\n",
+			"\n\n\n\n\n",
+			"\n\n\n\n",
+			"\n\n\n",
+			"\n\n",
+			"additional_users",
+			"ticketsusersUserId",
+			"_ticketsusersUserId",
+			"ticketsusersUserId",
+			"additional_users",
+			"Pic Bitches",
+			"process.env.PORT",
+			"super",
+			",	"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "source/_includes/header.html",
+					"settings":
+					{
+						"buffer_size": 33,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "source/_layouts/default.html",
+					"settings":
+					{
+						"buffer_size": 843,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								815,
+								815
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "source/_layouts/page.html",
+					"settings":
+					{
+						"buffer_size": 2163,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "source/_layouts/post.html",
+					"settings":
+					{
+						"buffer_size": 2124,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								189,
+								189
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "source/about/index.markdown",
+					"settings":
+					{
+						"buffer_size": 920,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								16
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"answersresult",
+				"protected/models/AnswersResult.php"
+			],
+			[
+				"news",
+				"protected/models/common/News.php"
+			],
+			[
+				"basesqcontroller",
+				"protected/components/common/BaseSqController.php"
+			],
+			[
+				"menu",
+				"protected/components/edit/widgets/ContentMenuWidget.php"
+			],
+			[
+				"base",
+				"protected/components/edit/BaseEditController.php"
+			],
+			[
+				"contentmenuwidget",
+				"protected/components/edit/widgets/ContentMenuWidget.php"
+			],
+			[
+				"loginf",
+				"protected/components/common/LoginForm.php"
+			],
+			[
+				"login",
+				"framework/gii/models/LoginForm.php"
+			],
+			[
+				"baseeditcontroller",
+				"protected/components/edit/BaseEditController.php"
+			],
+			[
+				"l_edit",
+				"themes/edit/views/layouts/l_edit.php"
+			],
+			[
+				"site",
+				"protected/controllers/edit/SiteController.php"
+			],
+			[
+				"auth",
+				"protected/config/auth.php"
+			],
+			[
+				"basesq",
+				"protected/components/common/BaseSqController.php"
+			],
+			[
+				"squ",
+				"protected/components/common/SQUser.php"
+			],
+			[
+				"user",
+				"protected/models/common/User.php"
+			],
+			[
+				"ajax",
+				"protected/controllers/AjaxController.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 221.0,
+	"status_bar_visible": true
+}

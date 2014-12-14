@@ -23,24 +23,27 @@
                   <ul class="dropdown-menu" role="menu">
                     <li><a href="#">Аналитической химии</a></li>
                     <li><a href="#">Органической химии</a></li>
-                    <li><a href="#">Something else here</a></li>
                     <li class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">Электротехники</a></li>
                     <li class="divider"></li>
-                    <li><a href="#">One more separated link</a></li>
+                    <li><a href="#">Химическая технология волокнистых материалов (ХТВМ)</a></li>
+                    <li><a href="#">Технология химических волокон и композиционных материалов (ТХВиКМ)</a></li>
+                    <li><a href="#">Технология тонкого органического синтеза (ТТОС)</a></li>
+                    <li><a href="#">Химия и технология высокомолекулярных соединений (ХиТВМС)</a></li>
+                    <li><a href="#">Технология пищевых продуктов и биотехнологии (ТППиБТ)</a></li>
                 </ul>
             </li>
             <li {% if page.navbar == 'Abiturients' %}class="active"{% endif %}>
-                    <a href="{{ root_url }}/blog/archives">Поступающим</a>
+                    <a href="{{ root_url }}/abiturients/">Поступающим</a>
                 </li>
                 <li {% if page.navbar == 'Tutors' %}class="active"{% endif %}>
-                    <a href="{{ root_url }}/blog/archives">Преподавателям</a>
+                    <a href="{{ root_url }}/tutors/">Преподавателям</a>
                 </li>
-                <li {% if page.navbar == 'Sudents' %}class="active"{% endif %}>
-                    <a href="{{ root_url }}/blog/archives">Студентам</a>
+                <li {% if page.navbar == 'Students' %}class="active"{% endif %}>
+                    <a href="{{ root_url }}/students/">Студентам</a>
                 </li>
                 <li {% if page.navbar == 'Documentation' %}class="active"{% endif %}>
-                    <a href="{{ root_url }}/blog/archives">Нормативная документация</a>
+                    <a href="{{ root_url }}/documentation/">Нормативная документация</a>
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">

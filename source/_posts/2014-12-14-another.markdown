@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Название новости"
+date: 2014-12-14 22:52:57 +0300
+comments: true
+categories: 
+---
+
+## Подзаголовок

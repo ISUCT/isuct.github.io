@@ -9,8 +9,11 @@
         {% endif %}
       </p>
     {% endunless %}
+
+    </h1>
     {% if index %}
       <h2 class="entry-title" itemprop="name headline"><a href="{{ root_url }}{{ post.url }}" itemprop="url">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h2>
+      
     {% else %}
     <h1 class="entry-title" itemprop="name headline">
         {% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}

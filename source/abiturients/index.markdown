@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Раздел находится в разрвботке"
-navbar: About
+navbar: Abiturients
 date: 2014-11-10 00:25
 comments: true
 sharing: false

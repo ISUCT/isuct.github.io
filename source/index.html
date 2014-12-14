@@ -2,9 +2,57 @@
 layout: default
 navbar: Blog
 ---
+<div class = "row hidden-xs">
+			<div class="col-md-1">
+			</div>
+<div id="carousel container" class="col-md-8" >
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
 
-<div class="row">
-  <div class="page-content {% unless site.default_asides == empty and site.blog_index_asides == empty %}col-md-9{% else %}col-md-12{% endunless %}">
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="{{ root_url }}/images/carousel/first.png" alt="...">
+      <div class="carousel-caption">
+        <h3>Zagolovok</h3>
+      </div>
+    </div>
+    <div class="item">
+      <img src="{{ root_url }}/images/carousel/second.png" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="{{ root_url }}/images/carousel/third.png" alt="...">
+      <div class="carousel-caption">
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+</div>
+
+<div class = "row">
+  <h1></h1>
+</div>
+<div class = "row">
+  <div class="page-content {% unless site.default_asides == empty and site.blog_index_asides == empty %}col-md-9{% else %}col-md-6{% endunless %}">
     <div class="blog-index" itemscope itemtype="http://schema.org/Blog">
     <meta itemprop="name" content="{{site.title}}" />
     {% if site.description %}<meta itemprop="description" content="{{site.description}}" />{% endif %}
@@ -18,31 +66,36 @@ navbar: Blog
       {% endfor %}
     </div>
 
-    <!--
     <ul class="pager">
       {% if paginator.next_page %}
-        <li class="previous"><a href="{{paginator.next_page_path}}">&larr;&nbsp;Older</a></li>
+        <li class="previous"><a href="{{paginator.next_page_path}}">&larr;&nbsp;Старые</a></li>
       {% else %}
-        <li class="previous disabled"><a href="#">&larr;&nbsp;Older</a></li>
+        <li class="previous disabled"><a href="#">&larr;&nbsp;Старые</a></li>
       {% endif %}
-      <li><a href="/blog/archives">Blog Archives</a></li>
+      <li><a href="/blog/archives">Архив новостей</a></li>
       {% if paginator.previous_page %}
-        <li class="next"><a href="{{paginator.previous_page_path}}">Newer&nbsp;&rarr;</a></li>
+        <li class="next"><a href="{{paginator.previous_page_path}}">Новые&nbsp;&rarr;</a></li>
       {% else %}
-        <li class="next disabled"><a href="#">Newer&nbsp;&rarr;</a></li>
+        <li class="next disabled"><a href="#">Новые&nbsp;&rarr;</a></li>
       {% endif %}
     </ul>
-  -->
-
   </div>
 
-  {% unless site.default_asides == empty and site.blog_index_asides == empty %}
-    <aside class="sidebar col-md-3">
-      {% if site.blog_index_asides.size %}
-        {% include_array blog_index_asides %}
-      {% else %}
-        {% include_array default_asides %}
-      {% endif %}
-    </aside>
+  <div class="page-content col-md-4 hidden-xs">
+      <!-- VK Widget -->
+      <div id="vk_groups"></div>
+      <script type="text/javascript">
+      VK.Widgets.Group("vk_groups", {mode: 2, wide: 3, width: "450", height: "600"}, 35227168);
+      </script>
+  </div>
+
+  {% unless page.sidebar == false or site.post_asides == empty and site.default_asides == empty %}
+  <aside class="sidebar col-md-3">
+    {% if site.post_asides.size %}
+      {% include_array post_asides %}
+    {% else %}
+      {% include_array default_asides %}
+    {% endif %}
+  </aside>
   {% endunless %}
 </div>

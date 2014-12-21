@@ -27,12 +27,14 @@
   </header>
 {% endunless %}
 {% if index %}
+ <div id="j" class="jumbotron">
   <div class="entry-content clearfix" itemprop="articleBody description">{{ content | excerpt }}</div>
   {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
   {% if excerpted == 'true' %}
     <footer>
       <a class="btn btn-default" href="{{ root_url }}{{ post.url }}">{{ site.excerpt_link }}</a>
     </footer>
+ </div>
   {% endif %}
 {% else %}
 <div class="entry-content clearfix" itemprop="articleBody description">{{ content }}</div>

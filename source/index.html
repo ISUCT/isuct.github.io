@@ -5,7 +5,7 @@ navbar: Blog
 <div class = "row hidden-xs">
 			<div class="col-md-1">
 			</div>
-<div id="carousel container" class="col-md-8" >
+<div id="carousel container" class="col-md-10" >
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -51,8 +51,9 @@ navbar: Blog
 <div class = "row">
   <h4></h4>
 </div>
+
 <div class = "row">
-  <div class="page-content {% unless site.default_asides == empty and site.blog_index_asides == empty %}col-md-9{% else %}col-md-8{% endunless %}">
+  <div class="page-content {% unless site.default_asides == empty and site.blog_index_asides == empty %}col-md-4{% else %}col-md-4{% endunless %}">
     <div class="blog-index" itemscope itemtype="http://schema.org/Blog">
     <meta itemprop="name" content="{{site.title}}" />
     {% if site.description %}<meta itemprop="description" content="{{site.description}}" />{% endif %}

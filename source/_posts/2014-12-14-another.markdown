@@ -14,4 +14,50 @@ categories:
 Родители в это время получили подробную информацию от ответственного секретаря приемной комиссии доц. Е.П. Константиновой о правилах приема в ИГХТУ, особенностях приема 2015 года, об олимпиадах, которые проводятся в вузе, и других мероприятиях для школьников, узнали о перспективах трудоустройства выпускников, о возможностях, которые предоставляет вуз для развития социальных и профессиональных компетенций своих студентов, из выступления проректора по учебной работе, доц. Н.Р. Кокиной, об особенностях ЕГЭ – от члена областной экзаменационной комиссии, проф. В.В. Кузнецова.
 Из рассказа студентов Карлы София Шиссенде Терейра ( 1/20) и Майи Матвеевой (1/21) родители получили информацию, что называется, «из первых рук» - о том, почему они выбрали наш вуз, как учатся, чем живут студенты ИГХТУ, какие у нас общежития, профилакторий, спортивный клуб, студенческий клуб и многое другое, о чем еще может с гордостью сказать любой студент Ивановского Химтеха.
 Родители смогли и сами задать любые интересующие вопросы деканам, членам приемной комиссии. Причем некоторые школьники уже выразили готовность и участия в олимпиадах, и целевом наборе, и даже готовы были принести документы (выпускники 2014 года). Что ж, мы с радостью ждем всех, кто видит в нашем университете перспективу, надежность, качество образования и интересную студенческую жизнь!
-<img src="http://main.isuct.ru/node/11138#" alt="...">
+
+<a href="{{ root_url }}/images/2014/december/19/img02b.JPG" data-lightbox="meet">
+	<img src="{{ root_url }}/images/2014/december/19/img02s.JPG"/>
+</a>
+<a href="{{ root_url }}/images/2014/december/19/img03b.JPG" data-lightbox="meet">
+	<img src="{{ root_url }}/images/2014/december/19/img03s.JPG"/>
+</a>
+<a href="{{ root_url }}/images/2014/december/19/img04b.JPG" data-lightbox="meet">
+	<img src="{{ root_url }}/images/2014/december/19/img04s.JPG"/>
+</a>
+<a href="{{ root_url }}/images/2014/december/19/img05b.JPG" data-lightbox="meet">
+	<img src="{{ root_url }}/images/2014/december/19/img05s.JPG"/>
+</a>
+<a href="{{ root_url }}/images/2014/december/19/img06b.JPG" data-lightbox="meet">
+	<img src="{{ root_url }}/images/2014/december/19/img06s.JPG"/>
+</a>
+<a href="{{ root_url }}/images/2014/december/19/img07b.JPG" data-lightbox="meet">
+	<img src="{{ root_url }}/images/2014/december/19/img07s.JPG"/>
+</a>
+<a href="{{ root_url }}/images/2014/december/19/img08b.JPG" data-lightbox="meet">
+	<img src="{{ root_url }}/images/2014/december/19/img08s.JPG"/>
+</a>
+<a href="{{ root_url }}/images/2014/december/19/img09b.JPG" data-lightbox="meet">
+	<img src="{{ root_url }}/images/2014/december/19/img09s.JPG"/>
+</a>
+<a href="{{ root_url }}/images/2014/december/19/img10b.JPG" data-lightbox="meet">
+	<img src="{{ root_url }}/images/2014/december/19/img10s.JPG"/>
+</a>
+<a href="{{ root_url }}/images/2014/december/19/img11b.JPG" data-lightbox="meet">
+	<img src="{{ root_url }}/images/2014/december/19/img11s.JPG"/>
+</a>
+<a href="{{ root_url }}/images/2014/december/19/img12b.JPG" data-lightbox="meet">
+	<img src="{{ root_url }}/images/2014/december/19/img12s.JPG"/>
+</a>
+<a href="{{ root_url }}/images/2014/december/19/img13b.jpg" data-lightbox="meet">
+	<img src="{{ root_url }}/images/2014/december/19/img13s.jpg"/>
+</a>
+<a href="{{ root_url }}/images/2014/december/19/img14b.jpg" data-lightbox="meet">
+	<img src="{{ root_url }}/images/2014/december/19/img14s.jpg"/>
+</a>
+<br>
+<a href="{{ root_url }}/images/2014/december/19/img16b.jpg" data-lightbox="meet">
+	<img src="{{ root_url }}/images/2014/december/19/img16s.jpg"/>
+</a>
+<a href="{{ root_url }}/images/2014/december/19/img17b.jpg" data-lightbox="meet">
+	<img src="{{ root_url }}/images/2014/december/19/img17s.jpg"/>
+</a>

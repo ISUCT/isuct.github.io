@@ -53,7 +53,8 @@ navbar: Blog
 </div>
 
 <div class = "row">
-  <div class="page-content {% unless site.default_asides == empty and site.blog_index_asides == empty %}col-md-4{% else %}col-md-4{% endunless %}">
+  <div class="page-content {% unless site.default_asides == empty and site.blog_index_asides == empty %}col-md-8{% else %}col-md-8{% endunless %}">
+    <h3>Новости</h3>
     <div class="blog-index" itemscope itemtype="http://schema.org/Blog">
     <meta itemprop="name" content="{{site.title}}" />
     {% if site.description %}<meta itemprop="description" content="{{site.description}}" />{% endif %}
@@ -84,10 +85,11 @@ navbar: Blog
 
     
   <div class="page-content col-md-4 hidden-xs" style="margin-top: -16;padding: 0">
+    <h3>Мы "ВКонтакте"</h3>
       <!-- VK Widget -->
       <div id="vk_groups"></div>
       <script type="text/javascript">
-      VK.Widgets.Group("vk_groups", {mode: 2, wide: 3, width: "auto", height: "500"}, 35227168);
+      VK.Widgets.Group("vk_groups", {mode: 2, wide: 3, width: "auto", height: "600"}, 35227168);
       </script>
   </div>
 

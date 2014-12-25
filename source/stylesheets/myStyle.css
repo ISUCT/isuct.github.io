@@ -1,3 +1,6 @@
+.carousel-inner > .item > img {
+	    margin: 0 auto;
+		}
 .carousel .item {
 	width: 100%; /*slider width*/
 	max-height: 350px; /*slider height*/

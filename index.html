@@ -27,9 +27,13 @@
 
   <script src="/javascripts/libs/jquery/jquery-2.0.3.min.js"></script>
 <script src="http://vk.com/js/api/openapi.js" type="text/javascript"></script>
-
+<script src="/assets/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/assets/lightbox/js/jquery-1.11.0.min.js"></script>
+<script src="/assets/lightbox/js/lightbox.min.js"></script>
 <link href="/assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <link href="/assets/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+<link href="/assets/lightbox/css/lightbox.css" rel="stylesheet" type="text/css">
+<link href="/stylesheets/myStyle.css" rel="stylesheet" type="text/css">
 
 
   
@@ -44,32 +48,45 @@
     <div id="wrap">
       <header role="banner">
         <hgroup>
-<div class="container">
-  <div class="row-fluid">
-  <div class="span1" style = "display:inline-table;vertical-align:middle;text-align:center">
-    <img src="/images/logo.jpg" width="100" height="100"/>
-  </div>
-  <div class="span10" style = "display:inline-table;vertical-align:middle">
-    <h4 style="color:#01662e">ФАКУЛЬТЕТ ОРГАНИЧЕСКОЙ ХИМИИ И ТЕХНОЛОГИИ </h4>
-    <h5>ИВАНОВСКИЙ ГОСУДАРСТВЕННЫЙ ХИМИКО-ТЕХНОЛОГИЧЕСКИЙ УНИВЕРСИТЕТ </h5>
-  </div>
-</div>
-</div>
-</hgroup>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-1">
+			</div>
+			<div class="col-md-1">
+        <a rel="index" href="/">
+				<img src="/images/logo.jpg" width="100" height="90"/>
+      </a>
+			</div>
+			<div class="col-md-6">
+				<h4 style="color:#01662e">ФАКУЛЬТЕТ ОРГАНИЧЕСКОЙ ХИМИИ И ТЕХНОЛОГИИ </h4>
+				<h5>ИВАНОВСКИЙ ГОСУДАРСТВЕННЫЙ ХИМИКО-ТЕХНОЛОГИЧЕСКИЙ УНИВЕРСИТЕТ </h5>
+			</div>
+			<div class="col-md-3">
+        <h4>
+        </h4>
+				<address style="color:#01662e">
+          153000, г. Иваново, пр. Шереметевский, 7 <br>
+          <abbr title="Телефон">тел:</abbr> +7 (4932) 93-93-31 <br>
+          e-mail: dekanat2@isuct.ru, konst@isuct.ru
+				</address>
+			</div>
+		</div>
+    <h4></h4>
+	</hgroup>
 
 
         <nav class="navbar navbar-default" role="navigation">
     <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
+                <span class="icon-bar"></span> 
             </button>
             <a class="navbar-brand" href="/"></a>
         </div>
 
-        <div class="navbar-collapse collapse">
+        <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <li class="active">
                     <a rel="index" href="/">Главная</a>
@@ -77,11 +94,35 @@
                 <li >
                     <a href="/about/">О факультете</a>
                 </li>
+
                 <li >
-                    <a href="/blog/archives">Поступающим</a>
+                 <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Кафедры<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="/department/AnaliticChem.html">Аналитической химии</a></li>
+                    <li><a href="#">Органической химии</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Электротехники</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Химическая технология волокнистых материалов (ХТВМ)</a></li>
+                    <li><a href="#">Технология химических волокон и композиционных материалов (ТХВиКМ)</a></li>
+                    <li><a href="#">Технология тонкого органического синтеза (ТТОС)</a></li>
+                    <li><a href="#">Химия и технология высокомолекулярных соединений (ХиТВМС)</a></li>
+                    <li><a href="#">Технология пищевых продуктов и биотехнологии (ТППиБТ)</a></li>
+                </ul>
+            </li>
+            </li>
+            <li >
+                    <a href="/abiturients/">Поступающим</a>
                 </li>
                 <li >
-                    <a href="/blog/archives">Студентам</a>
+                    <a href="/tutors/">Преподавателям</a>
+                </li>
+                <li >
+                    <a href="/students/">Студентам</a>
+                </li>
+                <li >
+                    <a href="/documentation/">Нормативная документация</a>
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -97,50 +138,228 @@
       </header>
       <div id="main" role="main" class="container">
         <div id="content">
-          <div class="row">
-  <div class="page-content col-md-9">
+          <div class = "row hidden-xs">
+			<div class="col-md-1">
+			</div>
+<div id="carousel container" class="col-md-10" >
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <a href="/abiturients/">
+    <div class="item active">
+      <img class = "img-responsive center-block" src="/images/carousel/Photo_190.jpg" alt="...">
+      <div class="carousel-caption">
+        <h3>Абитуриентам</h3>
+      </div>
+    </a>
+    </div>
+    <div class="item">
+      <img class = "img-responsive center-block" src="/images/carousel/Photo_5.jpg" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+</div>
+
+<div class = "row">
+  <h4></h4>
+</div>
+
+<div class = "row">
+  <div class="page-content col-md-8">
+    <h3>Новости</h3>
     <div class="blog-index" itemscope itemtype="http://schema.org/Blog">
     <meta itemprop="name" content="Факультет органической химии и технологии" />
     
     <meta itemprop="url" content="http://isuct.github.io" />
       
       
+      
+        <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+          
+  <header class="">
+    
+      <p class="meta text-muted text-uppercase">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<time datetime="2014-12-14T22:52:57+03:00" pubdate data-updated="true"></time>
+        
+      </p>
+    
+
+    </h1>
+    
+      <h4 class="entry-title" itemprop="name headline"><a href="/blog/2014/12/14/another/" itemprop="url">Для школьников и родителей – информация из первых рук</a></h4>
+      
+    
+  </header>
+
+
+  <div class="entry-content clearfix" itemprop="articleBody description"><p>Работать со школьниками – значит, и работать с их родителями. В этом уверены в ИГХТУ. 18 ноября здесь прошел семинар для родителей выпускников школ 2015 году «Особенности поступления в вузы России в 2015 году».</p>
+
+</div>
+  
+  
+    <footer>
+      <a class="btn btn-default" href="/blog/2014/12/14/another/">Подробнее &rarr;</a>
+    </footer>
+  
+
+
+        </article>
+      
+      
+        <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+          
+  <header class="">
+    
+      <p class="meta text-muted text-uppercase">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<time datetime="2014-12-13T01:53:56+03:00" pubdate data-updated="true"></time>
+        
+      </p>
+    
+
+    </h1>
+    
+      <h4 class="entry-title" itemprop="name headline"><a href="/blog/2014/12/13/testing-2/" itemprop="url">Почувствуй вкус успеха</a></h4>
+      
+    
+  </header>
+
+
+  <div class="entry-content clearfix" itemprop="articleBody description"><p>Сегодня в ИГХТУ прошло награждение победителей конкурса грантов для поддержки студенческих НИР 2014/2015 уч. года.</p>
+
+</div>
+  
+  
+    <footer>
+      <a class="btn btn-default" href="/blog/2014/12/13/testing-2/">Подробнее &rarr;</a>
+    </footer>
+  
+
+
+        </article>
+      
+      
+        <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+          
+  <header class="">
+    
+      <p class="meta text-muted text-uppercase">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<time datetime="2014-12-12T22:59:14+03:00" pubdate data-updated="true"></time>
+        
+      </p>
+    
+
+    </h1>
+    
+      <h4 class="entry-title" itemprop="name headline"><a href="/blog/2014/12/12/testing/" itemprop="url">Говорим на языке дружбы</a></h4>
+      
+    
+  </header>
+
+
+  <div class="entry-content clearfix" itemprop="articleBody description"><p>Помните ли вы себя первокурсниками? Для кого-то это далекое прошлое, для кого-то – совсем недавние воспоминания, а кто-то находится в этом статусе и сегодня.
+Но каждый, кто приехал учиться в наш вуз из другого города, поселка, другой страны, наверняка, скучает по своему дому и с нежностью вспоминает родные места…</p>
+
+</div>
+  
+  
+    <footer>
+      <a class="btn btn-default" href="/blog/2014/12/12/testing/">Подробнее &rarr;</a>
+    </footer>
+  
+
+
+        </article>
+      
     </div>
 
-    <!--
     <ul class="pager">
       
-        <li class="previous disabled"><a href="#">&larr;&nbsp;Older</a></li>
+        <li class="previous disabled"><a href="#">&larr;&nbsp;Старые</a></li>
       
-      <li><a href="/blog/archives">Blog Archives</a></li>
+      <li><a href="/blog/archives">Архив новостей</a></li>
       
-        <li class="next disabled"><a href="#">Newer&nbsp;&rarr;</a></li>
+        <li class="next disabled"><a href="#">Новые&nbsp;&rarr;</a></li>
       
     </ul>
-  &#8211;>
-
   </div>
 
-  
-    <aside class="sidebar col-md-3">
-      
-        <section class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Recent Posts</h3>
-  </div>
-  
-  <div id="recent_posts" class="list-group">
     
+  <div class="page-content col-md-4 hidden-xs" style="margin-top: -16;padding: 0">
+    <h3>Мы &#8220;ВКонтакте&#8221;</h3>
+      <!-- VK Widget -->
+      <div id="vk_groups"></div>
+      <script type="text/javascript">
+      VK.Widgets.Group("vk_groups", {mode: 2, wide: 3, width: "auto", height: "600"}, 35227168);
+      </script>
   </div>
-</section>
 
-
-
-
-
-
+  
+  <aside class="sidebar col-md-3">
+    
       
-    </aside>
+    
+  </aside>
   
 </div>
 

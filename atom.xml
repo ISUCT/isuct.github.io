@@ -4,7 +4,7 @@
   <title><![CDATA[Факультет органической химии и технологии]]></title>
   <link href="http://isuct.github.io/atom.xml" rel="self"/>
   <link href="http://isuct.github.io/"/>
-  <updated>2015-03-30T00:44:05+03:00</updated>
+  <updated>2015-05-06T13:02:06+03:00</updated>
   <id>http://isuct.github.io/</id>
   <author>
     <name><![CDATA[ИГХТУ]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Лекция 'Биотехнологии в фармацевтике']]></title>
+    <link href="http://isuct.github.io/blog/2015/05/06/r-farm-lection/"/>
+    <updated>2015-05-06T12:51:37+03:00</updated>
+    <id>http://isuct.github.io/blog/2015/05/06/r-farm-lection</id>
+    <content type="html"><![CDATA[<p>7 апреля в 10.00 в конференц-зале состоится лекция &ldquo;Биотехнологии в фармацевтике&rdquo;, которую прочитает инженер-биотехнолог участка по производству терапевтических белков компании &ldquo;Р-Фарм&rdquo; И.А. Соснин.</p>
+
+<p><a href="https://img-fotki.yandex.ru/get/9835/79520833.18/0_ca3a8_bfbd7d64_XXL.jpg" data-lightbox="document"/>
+    <img src="https://img-fotki.yandex.ru/get/9835/79520833.18/0_ca3a8_bfbd7d64_M"/>
+</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Весенний марафон]]></title>

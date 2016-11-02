@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://isuct.github.io/blog/2016/11/02/autumn-maraphon/</loc>
+    <lastmod>2016-11-02T13:28:23+03:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://isuct.github.io/blog/2015/05/06/r-farm-lection/</loc>
     <lastmod>2015-05-06T12:51:37+03:00</lastmod>
     <priority>0.8</priority>
@@ -62,49 +67,49 @@
   </url>
   <url>
     <loc>http://isuct.github.io/department/AnaliticChem.html</loc>
-    <lastmod>2015-05-06T13:02:06+03:00</lastmod>
+    <lastmod>2016-11-02T14:27:52+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://isuct.github.io/</loc>
-    <lastmod>2015-05-06T13:02:06+03:00</lastmod>
+    <lastmod>2016-11-02T14:27:52+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://isuct.github.io/blog/archives/</loc>
-    <lastmod>2015-05-06T13:02:06+03:00</lastmod>
+    <lastmod>2016-11-02T14:27:52+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://isuct.github.io/documentation/</loc>
-    <lastmod>2015-05-06T13:02:06+03:00</lastmod>
+    <lastmod>2016-11-02T14:27:52+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://isuct.github.io/students/</loc>
-    <lastmod>2015-05-06T13:02:06+03:00</lastmod>
+    <lastmod>2016-11-02T14:27:52+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://isuct.github.io/about/</loc>
-    <lastmod>2015-05-06T13:02:06+03:00</lastmod>
+    <lastmod>2016-11-02T14:27:52+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://isuct.github.io/abiturients/</loc>
-    <lastmod>2015-05-06T13:02:06+03:00</lastmod>
+    <lastmod>2016-11-02T14:27:52+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://isuct.github.io/tutors/</loc>
-    <lastmod>2015-05-06T13:02:06+03:00</lastmod>
+    <lastmod>2016-11-02T14:27:52+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

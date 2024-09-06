@@ -1,10 +1,11 @@
-_site/
-_deploy/
-public/
-.editorconfig
-.git
-.powrc
-.pygments-cache
-.sass-cache
-.slugignore
-.themes
+
+# Azure Functions artifacts
+bin
+obj
+appsettings.json
+local.settings.json
+
+# Azurite artifacts
+__blobstorage__
+__queuestorage__
+__azurite_db*__.json
